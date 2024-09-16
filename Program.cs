@@ -25,3 +25,7 @@ foreach(Heros hero in list)
 {
     Console.WriteLine(hero);
 }
+
+int day = 4;
+
+Console.WriteLine(Utilities.GetDayOfWeek(day));
