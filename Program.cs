@@ -18,6 +18,9 @@ list.Add(heroOne);
 list.Add(heroTwo);
 list.Add(heroThree);
 
+Heros heroFour = new Heros("Tony Stark", "Iron man");
+list.Add(heroFour);
+
 foreach(Heros hero in list)
 {
     Console.WriteLine(hero);

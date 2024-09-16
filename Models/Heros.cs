@@ -15,5 +15,14 @@ namespace SuperHeros.Models
         {
             return $"{HeroName} - {Name}";
         }
+        public Heros(string name, string heroName)
+        {
+            Name = name ;
+            HeroName = heroName ;
+        }
+        public Heros()
+        {
+            
+        }
     }
 }
